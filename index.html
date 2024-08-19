@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript TASKS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>JavaScript TASKS</h1>
+
+        <!-- Simple Calculator -->
+        <section>
+            <h2>Task 1: Simple Calculator</h2>
+            <form id="calculator-form">
+                <input type="number" id="num1" placeholder="Number 1" required>
+                <input type="number" id="num2" placeholder="Number 2" required>
+                <select id="operator" required>
+                    <option value="+">+</option>
+                    <option value="-">-</option>
+                    <option value="*">*</option>
+                    <option value="/">/</option>
+                </select>
+                <button type="submit">Calculate</button>
+            </form>
+            <p id="calculator-result">Result: </p>
+        </section>
+
+        <!-- Array Operations -->
+        <section>
+            <h2>Task 2: Array Operations</h2>
+            <button id="calculate-sum">Calculate Sum of Even Numbers</button>
+            <p id="array-result">Sum of even numbers: </p>
+        </section>
+
+        <!-- Object Manipulation -->
+        <section>
+            <h2>Task 3: Object Manipulation</h2>
+            <button id="get-full-name">Get Full Name</button>
+            <button id="increment-age">Increment Age</button>
+            <p id="person-result">Person Info: </p>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
